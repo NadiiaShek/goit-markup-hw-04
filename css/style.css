@@ -82,7 +82,7 @@ img {
 }
 
 .ldheder {
-	display: block;
+	display: inline-flex;
 	padding-top: 32px;
 	padding-bottom: 32px;
 }
@@ -93,7 +93,7 @@ img {
 
 .header-list {
 	display: flex;
-	margin-right: 331px;
+	margin-right: auto;
 }
 
 .header-navigation {
@@ -117,10 +117,10 @@ header {
 }
 
 .contacts-list {
-	display: flex;
+	display: inline-flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 0;
+	margin-left: auto;
 	margin-right: 0;
 
 	font-weight: 500;
@@ -136,8 +136,20 @@ header {
 }
 
 .contact-list-item {
-	display: flex;
+	display: inline-flex;
 }
+
+.contact-icon {
+	display: inline-flex;
+	margin-right: 10px;
+	align-items: center;
+	justify-content: center;
+	fill: currentColor;
+}
+.contact-icon:hover {
+	fill: var(--focus-hover-color);
+}
+
 .contacts-list :hover,
 .contacts-list:focus {
 	color: var(--focus-hover-color);
@@ -145,10 +157,22 @@ header {
 
 /* -----------HERO------------*/
 .hero {
+	max-width: 1600px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 200px;
 	padding-bottom: 200px;
 	color: var(--second-text-color);
 	background-color: var(--second-background);
+	background-image: linear-gradient(
+			rgba(47, 48, 58, 0.4),
+			rgba(47, 48, 58, 0.4)
+		),
+		url(../images/Hero-bg-img.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .hero .title {
@@ -194,6 +218,19 @@ header {
 	background-color: var(--btn-background-color2);
 }
 /* -----------MAIN------------*/
+.benefits-icon {
+	display: block;
+	margin-bottom: 30px;
+	width: 270px;
+	height: 120px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+
+	background: var(--our-team-background-color);
+	border-radius: 4px;
+}
+
 .benefits-list {
 	display: flex;
 }
@@ -383,6 +420,21 @@ header {
 	line-height: 1.88;
 	letter-spacing: 0.03em;
 	color: var(--main-text-color);
+}
+
+/* ----ПОСТОЯННЫЕ КЛИЕНТЫ -----*/
+.regular-clients {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.regular-clients .title {
+	margin-bottom: 50px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 
 /* -----------FOOTER------------*/
