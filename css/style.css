@@ -473,8 +473,11 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
-
+.regular-clients-item:hover {
+	border: 1px solid #2196F3;
+}
 /* -----------FOOTER------------*/
 .footer {
 	padding-top: 60px;
@@ -526,3 +529,59 @@ header {
 .footer-contacts-list:focus {
 	color: var(--focus-hover-color);
 }
+
+.social-footer {
+	display: flex;
+	flex-wrap: wrap;
+	width: 206px;
+	height: 80px;
+	margin-left: 285px;
+	margin-right: auto;
+	padding-bottom: 97px;
+
+
+	
+
+
+}
+
+.social-footer .title {
+	width: 145px;
+	height: 16px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 20px;
+	font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--second-text-color);
+
+
+
+}
+
+.social-footer-list {
+	display: flex;
+	justify-content: center;
+}
+
+.social-footer-item + .social-footer-item {
+	margin-left: 10px;
+
+}
+.social-footer-link {
+	width: 44px;
+	height: 44px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	fill: #ffffff;
+}
+
+.social-footer-link:hover {
+	background-color: var(--focus-hover-color);
+	
