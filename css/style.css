@@ -216,19 +216,15 @@ header {
 	background-color: var(--btn-background-color2);
 }
 /* -----------MAIN------------*/
-.benefits-icon {
-	display: block;
-	margin-bottom: 30px;
+.benifits-bg {
+	display: flex;
 	width: 270px;
 	height: 120px;
-
-	background-position: center;
-	background-repeat: no-repeat;
-
-	background: var(--our-team-background-color);
-	border-radius: 4px;
+	margin-bottom: 30px;
+	background-color: var(--our-team-background-color);
+	justify-content: center;
+	align-items: center;
 }
-
 .benefits-list {
 	display: flex;
 }
@@ -458,6 +454,25 @@ header {
 	line-height: 1.16;
 	text-align: center;
 	letter-spacing: 0.03em;
+}
+
+.regular-clients-list {
+	display: flex;
+	justify-content: center;
+}
+
+.regular-clients-item + .regular-clients-item {
+	margin-left: 30px;
+}
+
+.regular-clients-item {
+	width: 170px;
+	height: 92px;
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* -----------FOOTER------------*/
