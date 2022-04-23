@@ -508,7 +508,12 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 .span {
 	color: var(--logo-part-color);
 }
+
+
+
 .footer-address {
+	display: flex;
+
 	margin-bottom: 9px;
 
 	font-style: normal;
@@ -517,6 +522,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 	letter-spacing: 0.03em;
 	color: var(--second-text-color);
 }
+
 
 .footer-contacts-list {
 	display: block;
@@ -535,15 +541,20 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 	color: var(--focus-hover-color);
 }
 
+
+.adress-block {
+	display: flex;
+}
+
+
 .social-footer {
 	display: flex;
 	flex-wrap: wrap;
 	width: 206px;
 	height: 80px;
-	margin-left: 285px;
+	
 	margin-right: auto;
-	padding-bottom: 97px;
-
+	
 }
 
 .social-footer .title {
@@ -552,13 +563,14 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 	margin-left: 0;
 	margin-right: 0;
 	margin-bottom: 20px;
+	
 	font-weight: 700;
-
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--second-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+	letter-spacing: 0.03em;
+	font-style: normal;
+	text-transform: uppercase;
+	color: var(--second-text-color);
 }
 
 .social-footer-list {
