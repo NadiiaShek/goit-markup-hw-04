@@ -360,18 +360,11 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-.team-soc-icon {
 	fill: var(--color-soc-icons);
 }
+
 .team-soc-link:hover {
 	background-color: var(--focus-hover-color);
-}
-.team-soc-icon:hover {
-	fill: #ffffff;
-}
-
-.team-soc-link:hover .team-soc-icon {
 	fill: #ffffff;
 }
 
