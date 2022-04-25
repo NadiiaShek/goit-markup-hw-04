@@ -33,10 +33,7 @@ body {
 	color: inherit;
 }
 
-.link {
-	text-decoration: none;
-	color: inherit;
-}
+
 .conteiner {
 	width: 1200px;
 	padding-left: 15px;
@@ -425,8 +422,10 @@ header {
 	flex-basis: calc((100% - 3 * 30px) / 3);
 	margin-right: 30px;
 	margin-bottom: 30px;
+	
 }
-.item-portfolio:hover { 
+
+.item-portfolio-link:hover { 
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
