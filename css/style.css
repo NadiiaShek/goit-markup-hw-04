@@ -368,6 +368,12 @@ header {
 }
 
 /* -----------PORTFOLIO------------*/
+.item-portfolio-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+
 .filtr-portfolio {
 	padding-top: 94px;
 	padding-bottom: 94px;
