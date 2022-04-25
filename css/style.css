@@ -33,6 +33,10 @@ body {
 	color: inherit;
 }
 
+.link {
+	text-decoration: none;
+	color: inherit;
+}
 .conteiner {
 	width: 1200px;
 	padding-left: 15px;
