@@ -362,13 +362,15 @@ header {
 	fill: var(--color-soc-icons);
 }
 
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-link:focus {
 	background-color: var(--focus-hover-color);
 	fill: #ffffff;
 }
 
 /* -----------PORTFOLIO------------*/
 .item-portfolio-link {
+	display: block;
 	text-decoration: none;
 	color: inherit;
 }
@@ -432,7 +434,8 @@ header {
 	
 }
 
-.item-portfolio:hover { 
+.item-portfolio-link:hover,
+.item-portfolio-link:focus { 
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -494,8 +497,9 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 	cursor: pointer;
 	fill: var(--color-soc-icons)
 }
-.regular-clients-link:hover {
-	border: 1px solid #2196F3;
+.regular-clients-link:hover,
+.regular-clients-link:focus {
+	border: 1px solid var(--focus-hover-color);
 	fill: var(--focus-hover-color);
 }
 /* -----------FOOTER------------*/
@@ -549,7 +553,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 	margin-bottom: 9px;
 }
 
-.footer-contacts-list :hover,
+.footer-contacts-list:hover,
 .footer-contacts-list:focus {
 	color: var(--focus-hover-color);
 }
@@ -614,6 +618,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 	fill: #ffffff;
 }
 
-.social-footer-link:hover {
+.social-footer-link:hover,
+.social-footer-link:focus {
 	background-color: var(--focus-hover-color);
 	
